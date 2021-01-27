@@ -1,0 +1,20 @@
+Database Service:
+
+Input:
+- Source Id
+- Destination Id
+
+Output:
+- Jump Id List
+
+
+Input:
+{
+  srcId: string
+  destId: string
+}
+
+Output:
+{
+  pathIds: string[]
+}
